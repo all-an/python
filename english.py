@@ -6,7 +6,7 @@ def game():
         print("Congratulations!")
     else:
         print("Wrong, correct is Butterscotch")
-        print("Try again !")
+        print("Try again!")
         game()
 
 game()
