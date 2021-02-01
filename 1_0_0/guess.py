@@ -43,7 +43,7 @@ def play_guess():
             break
         else:
             if typed > secret_number:
-                print("You are wrong, your number is higher.")
+                print("You are wrong , your number is higher.")
                 print("Try again !")
             elif typed < secret_number:
                 print("You are wrong, your number is lower.")
