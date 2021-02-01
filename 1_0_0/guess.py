@@ -39,7 +39,7 @@ def play_guess():
         right = secret_number == typed
 
         if right:
-            print("You got the number, and your score is {} ." .format(score))
+            print("You got the number , and your score is {} ." .format(score))
             break
         else:
             if typed > secret_number:
