@@ -46,7 +46,7 @@ def play_guess():
                 print("You are wrong , your number is higher.")
                 print("Try again !")
             elif typed < secret_number:
-                print("You are wrong, your number is lower.")
+                print("You are wrong,your number is lower.")
                 print("Try again !")
             score_lost = abs(secret_number - typed)
             score = score - score_lost
